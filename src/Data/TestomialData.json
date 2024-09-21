@@ -1,0 +1,30 @@
+[
+    {   "image":"/users/image_1.avif",
+        "userName": "Rajesh Kumar",
+        "review": "The doctors at PGI Chandigarh are incredibly skilled and caring. Dr. Sharma diagnosed my condition accurately and provided the best treatment. I am very grateful for their support."
+    },
+    {   "image":"/users/image_2.jpeg",
+        "userName": "Neha Verma",
+        "review": "I had a wonderful experience with Dr. Gupta at PGI. She took the time to explain everything and made sure I was comfortable throughout the process. Highly recommend!"
+    },
+    {  "image":"/users/image_3.avif",
+        "userName": "Amit Singh",
+        "review": "Dr. Bhatia is one of the best doctors I have ever met. His expertise and dedication to his patients are commendable. The treatment I received at PGI Chandigarh was top-notch."
+    },
+    {    "image":"/users/image_4.jpeg",
+        "userName": "Pooja Desai",
+        "review": "PGI Chandigarh has some of the finest doctors. Dr. Mehta's professionalism and kindness made my treatment process much easier. I'm really thankful for the care I received."
+    },
+    {   "image":"/users/image_7.avif",
+        "userName": "Vikram Saini",
+        "review": "I was treated by Dr. Kapoor at PGI, and I couldn't have asked for better care. The entire team was very supportive and ensured that I was well-informed at every step."
+    },
+    {    "image":"/users/image_6.jpeg",
+        "userName": "Anjali Gupta",
+        "review": "Dr. Reddy at PGI Chandigarh is truly exceptional. He listened to all my concerns and provided effective treatment. The staff was also very polite and helpful."
+    },
+    {    "image":"/users/user_5.webp",
+        "userName": "Suresh Patil",
+        "review": "My experience at PGI Chandigarh was excellent. Dr. Arora is a highly skilled doctor who provided great care. The hospital facilities are also very good."
+    }
+]

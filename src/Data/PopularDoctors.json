@@ -1,0 +1,74 @@
+[
+    {   "id":26,
+        "image": "/popular/doc_1.webp",
+        "name": "Dr. Rajesh Kumar",
+        "specialization": "Cardiology",
+        "experience": "20 years",
+        "location": "Cardiology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":27,
+        "image": "/popular/doc_2.avif",
+        "name": "Dr. Anjali Verma",
+        "specialization": "Neurology",
+        "experience": "18 years",
+        "location": "Neurology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":28,
+        "image": "/popular/doc_3.webp",
+        "name": "Dr. Rakesh Sharma",
+        "specialization": "Dermatology",
+        "experience": "15 years",
+        "location": "Dermatology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":29,
+        "image": "/popular/doc_4.jpg",
+        "name": "Dr. Meena Gupta",
+        "specialization": "Gastroenterology",
+        "experience": "22 years",
+        "location": "Gastroenterology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":30,
+        "image": "/popular/doc_5.jpg",
+        "name": "Dr. Suresh Singh",
+        "specialization": "Oncology",
+        "experience": "17 years",
+        "location": "Oncology Department, Advanced Pediatric Centre, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":31,
+        "image": "/popular/doc_6.webp",
+        "name": "Dr. Priya Kapoor",
+        "specialization": "Pediatrics",
+        "experience": "12 years",
+        "location": "Pediatrics Department, Advanced Pediatric Centre, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":32,
+        "image": "/popular/doc_7.jpeg",
+        "name": "Dr. Ramesh Gupta",
+        "specialization": "Orthopedics",
+        "experience": "25 years",
+        "location": "Orthopedics Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":33,
+        "image": "/popular/doc_8.jpeg",
+        "name": "Dr. Kavita Mehta",
+        "specialization": "Gynecology",
+        "experience": "20 years",
+        "location": "Gynecology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {   "id":34,
+        "image": "/popular/doc_9.jpeg",
+        "name": "Dr. Anil Bhatia",
+        "specialization": "Radiology",
+        "experience": "19 years",
+        "location": "Radiology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh"
+    },
+    {  "id":35,
+        "image": "/popular/doc_10.jpeg",
+        "name": "Dr. Neha Sharma",
+        "specialization": "Psychiatry",
+        "experience": "16 years",
+        "location": "Psychiatry Department, Advanced Eye Centre, PGIMER, Sector 12, Chandigarh"
+    }
+]
+
+

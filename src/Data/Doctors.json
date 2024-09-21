@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Aarti Sharma",
+    "specialty": "Cardiology",
+    "experience": 12,
+    "contact": "987-654-3210",
+    "email": "aarti.sharma@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_2.avif"
+  },
+  {
+    "id": 17,
+    "name": "Dr. Preeti Sinha",
+    "specialty": "Cardiology",
+    "experience": 10,
+    "contact": "956-543-2109",
+    "email": "preeti.sinha@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rajeev Kumar",
+    "specialty": "Neurology",
+    "experience": 15,
+    "contact": "912-345-6789",
+    "email": "rajeeve.kumar@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_3.webp"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Mohit Saxena",
+    "specialty": "Neurology",
+    "experience": 13,
+    "contact": "955-432-1098",
+    "email": "mohit.saxena@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_5.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sanjay Gupta",
+    "specialty": "Gastroenterology",
+    "experience": 8,
+    "contact": "989-876-5432",
+    "email": "sanjay.gupta@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_5.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Ankur Deshmukh",
+    "specialty": "Gastroenterology",
+    "experience": 12,
+    "contact": "953-210-9876",
+    "email": "ankur.deshmukh@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_6.webp"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Vikram Singh",
+    "specialty": "Nephrology",
+    "experience": 13,
+    "contact": "965-432-1098",
+    "email": "vikram.singh@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_7.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "Dr. Rohit Kapoor",
+    "specialty": "Nephrology",
+    "experience": 9,
+    "contact": "949-876-5432",
+    "email": "rohit.kapoor@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Sneha Agarwal",
+    "specialty": "Endocrinology",
+    "experience": 7,
+    "contact": "964-321-0987",
+    "email": "sneha.agarwal@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_9.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Dr. Vandana Khanna",
+    "specialty": "Endocrinology",
+    "experience": 8,
+    "contact": "948-765-4321",
+    "email": "vandana.khanna@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/doc_10.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Amit Joshi",
+    "specialty": "Oncology",
+    "experience": 14,
+    "contact": "977-654-3210",
+    "email": "amit.joshi@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_1.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "Dr. Rakesh Kumar",
+    "specialty": "Oncology",
+    "experience": 16,
+    "contact": "951-098-7654",
+    "email": "rakesh.kumar@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_2.avif"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Rina Patel",
+    "specialty": "Pulmonology",
+    "experience": 11,
+    "contact": "976-543-2109",
+    "email": "rina.patel@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_1.avif"
+  },
+  {
+    "id": 21,
+    "name": "Dr. Sunita Arora",
+    "specialty": "Pulmonology",
+    "experience": 14,
+    "contact": "952-109-8765",
+    "email": "sunita.arora@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_2.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Manish Chauhan",
+    "specialty": "Rheumatology",
+    "experience": 6,
+    "contact": "963-210-9876",
+    "email": "manish.chauhan@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_4.webp"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Priya Mehta",
+    "specialty": "Pediatrics",
+    "experience": 9,
+    "contact": "966-543-2108",
+    "email": "priya.mehta@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_4.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Dr. Geeta Nair",
+    "specialty": "Pediatrics",
+    "experience": 11,
+    "contact": "950-987-6543",
+    "email": "geeta.nair@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_5.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Neha Verma",
+    "specialty": "Orthopedics",
+    "experience": 10,
+    "contact": "998-877-6655",
+    "email": "neha.verma@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_6.webp"
+  },
+  {
+    "id": 19,
+    "name": "Dr. Kavita Rao",
+    "specialty": "Orthopedics",
+    "experience": 9,
+    "contact": "954-321-0987",
+    "email": "kavita.rao@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_4.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Anil Sharma",
+    "specialty": "Ophthalmology",
+    "experience": 10,
+    "contact": "962-109-8765",
+    "email": "anil.sharma@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_6.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Suman Singh",
+    "specialty": "ENT",
+    "experience": 5,
+    "contact": "961-098-7654",
+    "email": "suman.singh@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_7.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Ananya Roy",
+    "specialty": "Dental",
+    "experience": 9,
+    "contact": "960-987-6543",
+    "email": "ananya.roy@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_8.webp"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Karan Patel",
+    "specialty": "Emergency Medicine",
+    "experience": 11,
+    "contact": "959-876-5432",
+    "email": "karan.patel@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_9.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Priyanka Desai",
+    "specialty": "Dermatology",
+    "experience": 6,
+    "contact": "958-765-4321",
+    "email": "priyanka.desai@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/women_1.avif"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Aditya Bhatt",
+    "specialty": "Radiology",
+    "experience": 8,
+    "contact": "957-654-3210",
+    "email": "aditya.bhatt@pgi.edu.in",
+    "location": "PGI Chandigarh",
+    "image": "/popular/men_10.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "Dr. Rajesh Kumar",
+    "specialty": "Cardiology",
+    "experience": "20 years",
+    "contact": "987-654-3210",
+    "email": "rajesh.kumar@pgi.edu.in",
+    "location": "Cardiology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_1.webp"
+  },
+  {
+    "id": 27,
+    "name": "Dr. Anjali Verma",
+    "specialty": "Neurology",
+    "experience": "18 years",
+    "contact": "956-543-2109",
+    "email": "anjali.verma@pgi.edu.in",
+    "location": "Neurology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_2.avif"
+  },
+  {
+    "id": 28,
+    "name": "Dr. Rakesh Sharma",
+    "specialty": "Dermatology",
+    "experience": "15 years",
+    "contact": "912-345-6789",
+    "email": "rakesh.sharma@pgi.edu.in",
+    "location": "Dermatology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_3.webp"
+  },
+  {
+    "id": 29,
+    "name": "Dr. Meena Gupta",
+    "specialty": "Gastroenterology",
+    "experience": "22 years",
+    "contact": "955-432-1098",
+    "email": "meena.gupta@pgi.edu.in",
+    "location": "Gastroenterology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_4.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Dr. Suresh Singh",
+    "specialty": "Oncology",
+    "experience": "17 years",
+    "contact": "953-210-9876",
+    "email": "suresh.singh@pgi.edu.in",
+    "location": "Oncology Department, Advanced Pediatric Centre, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_5.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Dr. Priya Kapoor",
+    "specialty": "Pediatrics",
+    "experience": "12 years",
+    "contact": "949-876-5432",
+    "email": "priya.kapoor@pgi.edu.in",
+    "location": "Pediatrics Department, Advanced Pediatric Centre, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_6.webp"
+  },
+  {
+    "id": 32,
+    "name": "Dr. Ramesh Gupta",
+    "specialty": "Orthopedics",
+    "experience": "25 years",
+    "contact": "965-432-1098",
+    "email": "ramesh.gupta@pgi.edu.in",
+    "location": "Orthopedics Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_7.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Dr. Kavita Mehta",
+    "specialty": "Gynecology",
+    "experience": "20 years",
+    "contact": "964-321-0987",
+    "email": "kavita.mehta@pgi.edu.in",
+    "location": "Gynecology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_8.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "Dr. Anil Bhatia",
+    "specialty": "Radiology",
+    "experience": "19 years",
+    "contact": "961-098-7654",
+    "email": "anil.bhatia@pgi.edu.in",
+    "location": "Radiology Department, Nehru Hospital, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_9.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Dr. Neha Sharma",
+    "specialty": "Psychiatry",
+    "experience": "16 years",
+    "contact": "960-987-6543",
+    "email": "neha.sharma@pgi.edu.in",
+    "location": "Psychiatry Department, Advanced Eye Centre, PGIMER, Sector 12, Chandigarh",
+    "image": "/popular/doc_10.jpeg"
+  }
+]

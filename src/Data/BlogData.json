@@ -1,0 +1,108 @@
+[
+    {
+      "date": "2024-08-01",
+      "doctor_name": "Dr. Anjali Verma",
+      "category": "Nutrition",
+      "description": "Discover essential nutrition tips to maintain a balanced diet and improve overall health.",
+      "image": "/blogs/nutrition_blog.jpeg"
+    },
+    {
+      "date": "2024-08-05",
+      "doctor_name": "Dr. Rohan Sharma",
+      "category": "Mental Health",
+      "description": "Learn how to manage stress effectively to support better mental health and well-being.",
+      "image": "/blogs/mental_health_blog.jpeg"
+    },
+    {
+      "date": "2024-08-08",
+      "doctor_name": "Dr. Kavita Singh",
+      "category": "Exercise",
+      "description": "Explore the numerous benefits of regular exercise and how it contributes to a healthier lifestyle.",
+      "image": "/blogs/exercise_blog.jpg"
+    },
+    {
+      "date": "2024-08-12",
+      "doctor_name": "Dr. Abhishek Mehta",
+      "category": "Sleep Health",
+      "description": "Understand the importance of quality sleep and its impact on your overall health.",
+      "image": "/blogs/sleep_health_blog.webp"
+    },
+    {
+      "date": "2024-08-15",
+      "doctor_name": "Dr. Priya Malhotra",
+      "category": "Dietary Supplements",
+      "description": "Get insights into dietary supplements and their role in supporting a healthy life.",
+      "image": "/blogs/dietary_supplements_blog.jpg"
+    },
+    {
+      "date": "2024-08-18",
+      "doctor_name": "Dr. Sameer Gupta",
+      "category": "Cardiovascular Health",
+      "description": "Learn essential tips for maintaining cardiovascular health through lifestyle choices.",
+      "image": "/blogs/cardiovascular_health_blog.jpeg"
+    },
+    {
+      "date": "2024-08-21",
+      "doctor_name": "Dr. Neha Kapoor",
+      "category": "Immunity Boosting",
+      "description": "Boost your immune system naturally with these expert-recommended tips and practices.",
+      "image": "/blogs/immunity_boosting_blog.png"
+    },
+    {
+      "date": "2024-08-24",
+      "doctor_name": "Dr. Rajeev Aggarwal",
+      "category": "Healthy Aging",
+      "description": "Adopt healthy habits to age gracefully and maintain well-being throughout your life.",
+      "image": "/blogs/healthy_aging_blog.jpg"
+    },
+    {
+      "date": "2024-08-27",
+      "doctor_name": "Dr. Shalini Arora",
+      "category": "Women's Health",
+      "description": "Focus on key aspects of women's health to ensure long-term wellness and vitality.",
+      "image": "/blogs/womens_health_blog.webp"
+    },
+    {
+      "date": "2024-08-30",
+      "doctor_name": "Dr. Manish Yadav",
+      "category": "Men's Health",
+      "description": "Explore essential health tips specifically tailored for men to promote a healthy lifestyle.",
+      "image": "/blogs/mens_health_blog.webp"
+    },
+    {
+      "date": "2024-09-02",
+      "doctor_name": "Dr. Meena Thakur",
+      "category": "Chronic Disease Management",
+      "description": "Manage chronic diseases effectively with expert advice on diet, exercise, and lifestyle changes.",
+      "image": "/blogs/chronic_disease_management_blog.jpeg"
+    },
+    {
+      "date": "2024-09-05",
+      "doctor_name": "Dr. Vishal Kumar",
+      "category": "Pediatric Health",
+      "description": "Ensure your child's health with expert tips on nutrition, vaccination, and regular check-ups.",
+      "image": "/blogs/pediatric_health_blog.jpg"
+    },
+    {
+      "date": "2024-09-08",
+      "doctor_name": "Dr. Anupama Joshi",
+      "category": "Mental Wellness",
+      "description": "Maintain mental wellness through mindfulness, meditation, and other recommended practices.",
+      "image": "/blogs/mental_wellness_blog.jpg"
+    },
+    {
+      "date": "2024-09-11",
+      "doctor_name": "Dr. Rakesh Tiwari",
+      "category": "Skin Care",
+      "description": "Daily skincare routines and expert tips for keeping your skin healthy and radiant.",
+      "image": "/blogs/skin_care_blog.jpeg"
+    },
+    {
+      "date": "2024-09-14",
+      "doctor_name": "Dr. Suman Luthra",
+      "category": "Bone Health",
+      "description": "Learn how to maintain strong and healthy bones through proper nutrition and exercise.",
+      "image": "/blogs/bone_health_blog.jpeg"
+    }
+  ]
+  
