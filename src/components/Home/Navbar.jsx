@@ -64,7 +64,7 @@ const Navbar = () => {
         {user ? (
           <div className="relative">
             <button 
-              className="bg-blue-600 text-white text-2xl px-6 py-4 rounded-full flex items-center"
+              className="bg-blue-600 text-white text-2xl px-4 py-2 rounded-full flex items-center"
               onClick={() => {
                 setIsUserMenuOpen(!isUserMenuOpen);
                 setIsMenuOpen(false); // Close mobile menu if open

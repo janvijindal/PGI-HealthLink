@@ -5,7 +5,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <>
-   
+     <Navbar/>
      <section className="w-full py-16 bg-gray-100">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
        

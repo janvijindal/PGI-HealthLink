@@ -1,17 +1,16 @@
 "use client";
 import React, { useState } from "react";
-import Image from 'next/image'; // Assuming you're using Next.js for optimized image loading
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useRouter } from 'next/navigation'; // Import useRouter
+import { useRouter } from 'next/navigation'; 
 import { BASE_URL } from "@/Base_url";
 
 
 const SignupPage = () => {
-  const [name, setName] = useState("");
+  const [userName, setuserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const router = useRouter(); // Initialize useRouter
+  const router = useRouter(); 
 
   const handleSignup = async (e) => {
     e.preventDefault();
@@ -21,7 +20,7 @@ const SignupPage = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, password }),
+        body: JSON.stringify({ userName, email, password }),
       });
 
       if (!response.ok) {
@@ -55,8 +54,8 @@ const SignupPage = () => {
                 type="text"
                 id="name"
                 className="w-full px-4 py-3 border rounded-lg focus:outline-blue-600"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                value={userName}
+                onChange={(e) => setuserName(e.target.value)}
                 placeholder="Enter your full name"
                 required
               />
@@ -107,11 +106,10 @@ const SignupPage = () => {
 
       {/* Right Side (Image) */}
       <div className="w-1/2 hidden md:block h-full relative">
-        <Image 
+        <img
           src="/signup_page.webp" 
           alt="signup" 
           layout="fill"
-          objectFit="cover" 
           className="w-full h-full"
         />
       </div>

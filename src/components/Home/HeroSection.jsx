@@ -3,7 +3,7 @@ import Link from 'next/link';
 const HeroSection = () => {
   return (
     <section className="w-full  py-10 md:py-20 ">
-      <div className="container mx-auto  flex flex-col md:flex-row items-center justify-between px-4 md:px-0">
+      <div className="container   mx-auto  flex flex-col md:flex-row items-center justify-between px-4 md:px-0">
         {/* Content */}
         <div className="flex-1 md:pr-8 mb-8 md:mb-0">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-snug">
@@ -20,7 +20,7 @@ const HeroSection = () => {
         </div>
 
         {/* Photo */}
-        <div className="flex-1 flex justify-center ">
+        <div className="flex-1 flex  justify-center ">
           <img src="/img_1.webp" alt="Doctor" className="w-full object-fit md:h-[480px]  rounded-lg  object-cover" />
         </div>
       </div>

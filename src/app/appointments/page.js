@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { BASE_URL } from "@/Base_url"; // Ensure BASE_URL is defined
 import { toast } from "react-toastify"; // For notifications
 import BookingModal from "@/components/DoctorDetail/BookingModal";
+import Navbar from "@/components/Home/Navbar";
 
 const MyAppointments = () => {
   const router = useRouter();
@@ -25,7 +26,7 @@ const MyAppointments = () => {
 
     const fetchAppointments = async () => {
       const token = localStorage.getItem("token");
-      if (!token) return; // Skip fetching if not authenticated
+      if (!token) return; 
 
       try {
         const response = await fetch(`${BASE_URL}/api/appointments/user`, {
@@ -83,7 +84,9 @@ const MyAppointments = () => {
   };
 
   return (
-    <div className="p-4 max-w-5xl mx-auto">
+    <>
+      <Navbar/>
+      <div className="p-4 max-w-5xl mx-auto">
       <h1 className="text-3xl mt-10 font-bold mb-6">My Appointments</h1>
       {appointments.length === 0 ? (
         <p className="text-center">No appointments found.</p>
@@ -141,6 +144,7 @@ const MyAppointments = () => {
         />
       )}
     </div>
+    </>
   );
 };
 

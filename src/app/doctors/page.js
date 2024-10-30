@@ -26,7 +26,37 @@ import { BASE_URL } from "@/Base_url";
 import Navbar from "@/components/Home/Navbar";
 
 const categories = [
-  // Categories remain unchanged
+  { name: "Cardiology", icon: <FaHeartbeat /> },
+  { name: "Neurology", icon: <FaBrain /> },
+  { name: "Gastroenterology", icon: <FaStethoscope /> },
+  { name: "Nephrology", icon: <GiKidneys /> },
+  { name: "Endocrinology", icon: <FaSyringe /> },
+  { name: "Oncology", icon: <FaRadiation /> },
+  { name: "Pulmonology", icon: <FaLungs /> },
+  { name: "Rheumatology", icon: <FaBone /> },
+  { name: "Dermatology", icon: <FaUserMd /> },
+  { name: "Pediatrics", icon: <FaChild /> },
+  { name: "Obstetrics & Gynecology", icon: <FaFemale /> },
+  { name: "Orthopedics", icon: <FaBone /> },
+  { name: "General Surgery", icon: <FaUserMd /> },
+  { name: "Ophthalmologist", icon: <FaEye /> },
+  { name: "ENT (Ear, Nose, and Throat)", icon: <GiHumanEar /> },
+  { name: "Psychiatry", icon: <MdPsychology /> },
+  { name: "Urologist", icon: <GiKidneys /> },
+  { name: "Plastic Surgery", icon: <FaUserMd /> },
+  { name: "Anesthesiology", icon: <FaUserNurse /> },
+  { name: "Radiology", icon: <FaMicroscope /> },
+  { name: "Hematology", icon: <MdBloodtype /> },
+  { name: "Pathology", icon: <FaMicroscope /> },
+  { name: "Immunology", icon: <AiOutlineMedicineBox /> },
+  { name: "Transfusion Medicine", icon: <MdBloodtype /> },
+  { name: "Nuclear Medicine", icon: <FaRadiation /> },
+  { name: "Internal Medicine", icon: <FaStethoscope /> },
+  { name: "Geriatrics", icon: <FaUserMd /> },
+  { name: "Neurosurgery", icon: <GiBrain /> },
+  { name: "Pediatric Surgery", icon: <FaChild /> },
+  { name: "Trauma and Emergency Medicine", icon: <MdEmergency 
+  /> },
 ];
 
 const DoctorsPageContent = () => {
@@ -49,7 +79,7 @@ const DoctorsPageContent = () => {
         if (!response.ok) throw new Error("Failed to fetch doctors");
         const data = await response.json();
 
-        setDoctors(data); // Set the fetched doctor data
+        setDoctors(data); 
       } catch (error) {
         console.error(error);
       }

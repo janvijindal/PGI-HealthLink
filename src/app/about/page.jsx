@@ -18,7 +18,7 @@ const AboutPage = () => {
 
   return (
     <>
-    
+    <Navbar/>
     <section className="w-full py-10 md:py-16 bg-gray-100">
       <div className="container mx-auto flex flex-col md:flex-row items-start justify-between space-y-10 md:space-y-0 md:space-x-10 px-6">
         <div className="flex-1 space-y-8 ">

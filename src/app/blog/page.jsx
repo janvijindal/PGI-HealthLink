@@ -7,7 +7,7 @@ const BlogPage = () => {
 
   return (
     <>
-     
+     <Navbar/>
      <section className="w-full py-10 bg-gray-100">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
       

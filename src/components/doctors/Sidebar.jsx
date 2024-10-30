@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { FaBars } from "react-icons/fa"; // For the mobile menu icon
+import { FaBars } from "react-icons/fa"; 
 
 const Sidebar = ({ categories, selectedCategory, onSelectCategory }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Sidebar = ({ categories, selectedCategory, onSelectCategory }) => {
 
   const handleCategorySelect = (name) => {
     onSelectCategory(name);
-    setIsOpen(false); // Close sidebar on category selection
+    setIsOpen(false); 
   };
 
   return (
