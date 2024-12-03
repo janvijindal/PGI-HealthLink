@@ -138,8 +138,8 @@ const Dashboard = () => {
                   Booking on {item.date}
                 </p>
               </div>
-              <span className="px-3 py-1 bg-green-600 text-white text-sm rounded-full">
-                Completed
+              <span className={`px-3 py-1 ${item.status=="Completed" ? 'bg-green-600' : 'bg-red-500'} text-white text-sm rounded-full`}>
+               {item?.status}
               </span>
             </div>
           ))}

@@ -1,3 +1,4 @@
+"use client";
 import { BASE_URL } from "@/Base_url";
 import React, { useState, useEffect } from "react";
 
@@ -5,6 +6,7 @@ const Appointments = () => {
   const [appointmentData, setAppointmentData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [updatingStatus, setUpdatingStatus] = useState(null); // For tracking which status is being updated
 
   useEffect(() => {
     const fetchAppointments = async () => {
@@ -18,16 +20,13 @@ const Appointments = () => {
         }
 
         const response = await fetch(`${BASE_URL}/api/appointments`, {
-          method: 'GET',
+          method: "GET",
           headers: {
             Authorization: `Bearer ${adminToken}`,
           },
         });
 
-        // Parse the JSON response
         const data = await response.json();
-
-        // Set the appointment data
         setAppointmentData(data);
         setLoading(false);
       } catch (error) {
@@ -39,6 +38,46 @@ const Appointments = () => {
     fetchAppointments();
   }, []);
 
+  const updateAppointmentStatus = async (id, newStatus) => {
+    try {
+      setUpdatingStatus(id); // Mark the current status update in progress
+      const adminToken = localStorage.getItem("admin_token");
+
+      // Check if admin token is available
+      if (!adminToken) {
+        throw new Error("Admin token is missing. Please login again.");
+      }
+
+      // Update status on the server
+      const response = await fetch(
+        `${BASE_URL}/api/appointments/update-status/${id}?status=${newStatus}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json", // Ensure the body is sent as JSON
+            Authorization: `Bearer ${adminToken}`,
+          },
+        }
+      );
+      if (!response.ok) {
+        throw new Error("Failed to update appointment status.");
+      }
+
+      // Update status locally
+      setAppointmentData((prevData) =>
+        prevData.map((appointment) =>
+          appointment.id === id
+            ? { ...appointment, status: newStatus }
+            : appointment
+        )
+      );
+    } catch (error) {
+      setError(error.message || "Failed to update status.");
+    } finally {
+      setUpdatingStatus(null); // Reset after the update attempt
+    }
+  };
+
   if (loading) {
     return <div className="p-4">Loading appointments...</div>;
   }
@@ -47,14 +86,15 @@ const Appointments = () => {
     return <div className="p-4 text-red-500">{error}</div>;
   }
 
+  console.log(appointmentData);
   return (
     <div className="p-4 max-w-screen-lg">
       <h2 className="text-2xl font-semibold text-black mb-4">
         All Appointments
       </h2>
       {/* Table */}
-      <div className="overflow-y-auto" style={{ maxHeight: "500px" }}>
-        <table className="min-w-full table-fixed bg-gray-100 shadow-md rounded-md">
+      <div className="overflow-x-auto max-h-[500px]">
+        <table className="min-w-full table-auto bg-gray-100 shadow-md rounded-md">
           <thead className="bg-gray-200">
             <tr>
               <th className="p-3 text-left">Patient</th>
@@ -64,9 +104,9 @@ const Appointments = () => {
             </tr>
           </thead>
           <tbody>
-            {appointmentData.map((appointment, index) => (
+            {appointmentData.map((appointment, i) => (
               <tr
-                key={index} // Use index as the key since no unique ID is available
+                key={i}
                 className="border-b last:border-b-0 hover:bg-gray-100"
               >
                 <td className="p-3 flex items-center gap-3">
@@ -80,7 +120,10 @@ const Appointments = () => {
                   <span className="text-black">{appointment.userName}</span>
                 </td>
                 <td className="p-3 text-gray-600">
-                  {appointment.date}, {appointment.time}
+                  {/* Combine date and time into a human-readable format */}
+                  {new Date(
+                    `${appointment.date} ${appointment.time}`
+                  ).toLocaleString()}
                 </td>
                 <td className="p-3 flex items-center gap-3">
                   <img
@@ -93,9 +136,23 @@ const Appointments = () => {
                   <span className="text-black">{appointment.doctorName}</span>
                 </td>
                 <td className="p-3">
-                  <span className="px-3 py-1 bg-green-600 text-white text-sm rounded-full">
-                    Completed
-                  </span>
+                  <select
+                    value={appointment.status}
+                    onChange={
+                      (e) =>
+                        updateAppointmentStatus(appointment.id, e.target.value) // Use timestamp as ID
+                    }
+                    className="px-3 py-1 bg-gray-200 text-black text-sm rounded-full"
+                    disabled={updatingStatus === appointment.id} // Disable while updating
+                  >
+                    <option value="Completed">Completed</option>
+                    <option value="Pending">Pending</option>
+                  </select>
+                  {updatingStatus === appointment.timestamp && (
+                    <span className="text-sm text-gray-600 ml-2">
+                      Updating...
+                    </span>
+                  )}
                 </td>
               </tr>
             ))}
